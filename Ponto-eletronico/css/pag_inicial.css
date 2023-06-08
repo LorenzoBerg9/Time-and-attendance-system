@@ -1,0 +1,201 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-left: 20%;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #000000;
+    margin-left: -4%;
+    font-size: larger;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+#check {
+    display: inline-block;
+    font-size: 27px;
+}
+
+/*nao faço ideia oq seja*/
+fieldset {
+    border: 0;
+    font-size: 10px;
+}
+
+/*fonte do mostrar senha*/
+body {
+    font-family: sans-serif;
+    font-size: 10em;
+    color: rgb(0, 0, 0);
+    margin-top: 0%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 140px;
+}
+
+/*css das letras dentro das box*/
+input,
+select,
+textarea,
+button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #000000;
+    border-radius: 10px; /*altera a curva das box*/
+    font-size: 21px; /*fonte da letras dentro das box*/
+}
+
+.grupo:before {
+    display: table;
+    font-size: 20px;
+}
+
+.grupo:after {
+    clear: both;
+    font-size: 20px;
+}
+
+/*css para os titulos das box, "nome, sobrenome, email, CPF"*/
+.campo label {
+    margin-bottom: 0.2em;
+    color: #000000;
+    display: block;
+    font-size: 20px;
+    
+}
+
+/*botao cadastrar*/
+.botao {
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff; /*cor letra botao*/
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    font-size: 20px; /*fonte botao*/
+    margin-left: 150px;  
+}
+
+.botao2 { /*ja tem cadastro?*/
+    font-size: 1.2em;
+    border: 0;
+    margin-bottom: 1em;
+    margin-left: 73px;
+    margin-top: 30px;
+
+}
+
+.botao3 { /*login*/
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff; /*cor letra botao*/
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    font-size: 20px; /*fonte botao*/
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+/*muda a cor do botao quando passa o mouse*/
+.botao:hover {
+    background: #d4d4d6; /*cor nele inteiro*/
+    box-shadow: inset 2px 2px 2px rgb(0, 0, 0); /*cor no fundo*/
+    text-shadow: none;
+}
+
+.botao,
+select {
+    cursor: pointer;
+}
+
+/*lugar da logo*/
+.img {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+
+}
+
+/*imagem de fundo*/
+body {
+
+    background-repeat: no-repeat;/*para nao fazer a imagem repetir ( o de baixo tambem)*/
+    background-size: cover;
+
+}
+/*config do quadrado login*/
+.contentLogin {
+    width: 350px;
+    position: relative;
+    margin: 250px auto;
+    position: relative;
+    margin-right: 690px;
+}
+
+/*config do quadrado*/
+.contentInicial {
+    width: 480px;
+    position: relative;
+    margin: 120px auto;
+    
+}
+
+/*config do quadrado para add borda sem mudar a escrita*/
+#login {
+    width: 100%;
+    padding: 10% 5% 10% 20%;
+    margin-top: auto;
+    background: #9e9b97;
+    align-items: center;
+    position: absolute;
+    border-radius: 30px; /*borda do quadrado no login e no cadastro*/
+
+}
+
+/*barra de cima*/
+nav {
+    display: flex;
+    background-color: rgb(213, 128, 67);
+    height: 10vh;/*grossura*/
+
+}
+
+/*titulo da barra*/
+.titulo2 {
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-left: 35%;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.campo{
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-left: 13%;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.linkcadastro{
+  font-size: 20px;  
+}

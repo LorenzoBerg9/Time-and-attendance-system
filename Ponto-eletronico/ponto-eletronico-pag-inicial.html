@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link href="css/pag_inicial.css" rel="stylesheet">
+    <title>NPI</title>
+
+    <script src="js/mostrar_senha_inicio.js"></script>
+
+</head>
+
+<!--imagem unifil-->
+
+<body style="background-image: url(https://c1.wallpaperflare.com/preview/591/417/108/keyboard-macbook-pro-lighting-the-keys-on-the-keyboard.jpg)">
+
+    <!--titulo-->
+
+
+    <header>
+        <nav style="width: 100%; top: 0px; left: 0px; position:absolute">
+            <p class="titulo2">Ponto eletronico - NPI</p>
+            <a class="navbar-brand" href="#"></a>
+            <div class="img">
+                <img src="imagem/unifil.png" width="200" height="200">
+            </div>
+    </header>
+
+    <section class="contentInicial">
+        <div id="login">
+            <h1 id="titulo">Bem vindo!</h1>
+            <p id="subtitulo"> Faça seu cadastro abaixo:</p>
+            <br>
+
+            <form class="campo">
+                <!--preencher-->
+                <!--nome-->
+                <label for="nome"><strong>Nome e sobrenome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+
+                <!--email-->
+                <label for="email"><strong>Email</strong></label>
+                <input type="text" name="email" id="email" placeholder="seu email.edu" required>
+
+                <!--matricula-->
+                <label for="CPF"><strong>Matricula</strong></label>
+                <input type="text" name="cpf" id="cpf" required>
+
+                <!--curso-->
+                <label for="periodo"><strong>Curso</strong></label>
+                
+            
+                <form method="post" action="cadastrar-enquete.php">
+                    <select name="Periodo">
+                        <option value="1"></option>
+                        <option value="2">Engenharia de Software</option>
+                        <option value="3">Ciência da Computação </option>
+                        <option value="3">Análise de sistemas</option>
+                    </select>
+
+                <!--ano de matricula-->
+                <label for="anodematricula"><strong>Ano de entrada</strong></label>
+                <input type="anodematricula" name="ano" id="ano">
+
+                <!--zap-->
+                <label for="zap"><strong>Numero de telefone</strong></label>
+                <input type="zap" name="zap" id="ano">
+                <br>
+            </form>
+
+            <!--botao para ir para login-->
+            <div>
+                <button class="botao2" onclick="onpenMenumoda2();"></button>
+                Ja tem cadastro?
+                <a href="login.html"> login </a>
+            </div>
+            <!--botao cadastrar-->
+            <button class="botao" onclick="onpenMenumodal();">cadastrar</button>
+        </div>
+    </section>
+
+</body>
+
+</html>
